@@ -1,0 +1,39 @@
+canvas {
+    margin: 0px;
+    width: 100%;
+    position:absolute;
+    width:100%;
+    top:0px;
+}
+#drawDiv {
+    background-image:url('../img/components/cardboard.jpg');
+    background-size:100%;
+    position: relative;
+    padding-left: 0px;
+    height: 295px;
+}
+
+@media (max-width: 1200px) {
+    #drawDiv {
+        height: 245px;
+    }
+}
+
+@media (max-width: 991px) {
+    #drawDiv {
+        height: 375px;
+    }
+}
+
+@media (max-width: 768px) {
+    #drawDiv {
+        height: 50vw;
+    }
+    @media screen and (orientation:landscape) {
+        #drawDiv {
+            width: 80vw;
+            height: 40vw;
+            margin-left: 10vw;
+        }
+    }
+}

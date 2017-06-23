@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "src": "cabin.png",
+    "name": "Cabin"
+  },
+  {
+    "id": 1,
+    "src": "cake.png",
+    "name": "Cake"
+  },
+  {
+    "id": 2,
+    "src": "circus.png",
+    "name": "Circus"
+  },
+  {
+    "id": 3,
+    "src": "game.png",
+    "name": "Game Controller"
+  },
+  {
+    "id": 4,
+    "src": "safe.png",
+    "name": "Safe"
+  },
+  {
+    "id": 5,
+    "src": "submarine.png",
+    "name": "Submarine"
+  }
+]

@@ -1,0 +1,193 @@
+/*Sepcific styling*/
+
+.button-pos{
+  padding: 3px 5px;
+}
+
+.button-box{
+  padding: 20px 0px;
+}
+
+.button-pos-dialog
+{
+  margin: 3px 5px;
+}
+
+.make-more-pos{
+    position: relative;
+    left: 15px;
+    margin-bottom: 31px;
+}
+
+.blauwdruk-pos{
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.main-name{
+    position: relative;
+    top: 2px;
+}
+
+.navbar-brand img{
+  display: inline-block;
+}
+
+.web-name{
+  display: inline-block;
+  margin-left: 15px;
+  padding: 0px;
+}
+
+.divider-home
+{
+  width: 50%;
+}
+
+.frl-icon{
+  width:52px;
+  padding-left: 8px;
+  padding-top: 2px;
+  display: inline-block;
+}
+
+.news-card{
+  margin: 20px 0px;
+}
+
+.main-pic
+{
+    max-height: 256px;
+    max-width: 280px;
+}
+.load-pic
+{
+    max-height: 320px;
+    max-width: 350px;
+}
+.submit-code
+{
+  width: 275px;
+  margin-top: 10px;
+}
+.red
+{
+  background-color: #ac2925;
+  border-color: #ac2925;
+}
+.red:hover
+{
+  background-color: #811d1b;
+  border-color: #811d1b;
+}
+.red:focus
+{
+  background-color: #c02725;
+  border-color: #c02725;
+}
+.red:active:focus
+{
+  background-color: #c02725;
+  border-color: #c02725;
+}
+.wait-page
+{
+  background-color: #fff;
+}
+.submit-art
+{
+  margin-top:20px;
+}
+/* Styling default */
+
+.inline-block
+{
+  display: inline-block;
+}
+
+/* Center styling */
+.center
+{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.align-center
+{
+  align-items: center;
+  display: inline-block;
+}
+.img-center
+{
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .mobile-center
+  {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.half-width{
+  zoom: 50%;
+}
+
+/* Icon Styling */
+.icon-div
+{
+  width:50px;
+  margin: 0 auto;
+}
+.icon-text{
+ width: 120px;
+}
+.maker-icon{
+  width: 30px;
+  height: auto;
+}
+.layer-icon{
+  width: 30px;
+  height: auto;
+}
+.pencil-icon{
+  width: 25px;
+  height: auto;
+}
+.disabled-link {
+  pointer-events: none;
+  color: grey !important;
+}
+
+.portfolio-link{
+  cursor: pointer;
+}
+
+/* Extra stuff */
+
+.background-video {
+      background-position: center center;
+      background-repeat:  no-repeat;
+      background-attachment: fixed;
+      background-size:  cover;
+      background-color: #999;
+      position: fixed;
+      z-index: -100;
+}
+
+.menu-padding{
+  padding: 4px 0px;
+}
+
+.section-fix{
+  padding-bottom: 5px;
+}
